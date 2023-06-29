@@ -50,6 +50,7 @@ public class ConsoleUI {
                 if(field.isSolved())
                 {
                     System.out.println("WIN");
+                    this.isPlaying = false;
                 } else
                     System.out.println("PLAYING");
                 break;

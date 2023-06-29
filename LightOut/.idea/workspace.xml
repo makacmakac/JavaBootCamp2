@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afe4c921-8ed7-48a1-ba3e-e4d454432646" name="Changes" comment="Projekt LightsOut" />
+    <list default="true" id="afe4c921-8ed7-48a1-ba3e-e4d454432646" name="Changes" comment="Projekt LightsOut">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/tuke/lightsout/ConsoleUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/tuke/lightsout/ConsoleUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/tuke/lightsout/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/tuke/lightsout/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/tuke/lightsout/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/tuke/lightsout/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sk/tuke/lightsout/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sk/tuke/lightsout/Field.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sk/tuke/lightsout/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sk/tuke/lightsout/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +25,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2Rp2b7dZWmW9KesTyLCsVWAKmQK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,16 +40,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/Documents/MEGAsync/_PRIPRAVA-KACUR/_UCEBNY-MATERIAL-KACUR-PETER/ObjektoveProgramovanie/PrincípyOOP/JavaBootcamp/LightOut&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Dell/Documents/MEGAsync/_PRIPRAVA-KACUR/_UCEBNY-MATERIAL-KACUR-PETER/ObjektoveProgramovanie/PrincípyOOP/JavaBootcamp/JavaBootCamp2/LightOut",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sk.tuke.lightsout.Main" />
@@ -78,6 +93,18 @@
       <option name="presentableId" value="Default" />
       <updated>1687932774083</updated>
     </task>
+    <task id="LOCAL-00001" summary="Projekt LightsOut">
+      <created>1688021970054</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688021970054</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Projekt LightsOut" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projekt LightsOut" />
   </component>
 </project>

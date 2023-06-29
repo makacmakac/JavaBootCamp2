@@ -36,7 +36,7 @@ public class Field {
         initializing = false;
 
     }
-    
+
     public boolean isSolved() {
         return solved;
     }
@@ -60,7 +60,9 @@ public class Field {
                     allLightning++;
             }
         }
-        if(allLightning == (rowCount*columnCount)){this.solved=true;}
+        if (allLightning == (rowCount * columnCount)) {
+            this.solved = true;
+        }
 
     }
 
@@ -68,24 +70,36 @@ public class Field {
     public void initializationToggleLights() {
         Random random = new Random();
         for (int dif = 1; dif <= this.difficulty; dif++) {
-            int rowRand = random.nextInt(rowCount);
-            int columnRand = random.nextInt(columnCount);
-            for (var row = 0; row < this.rowCount; row++) {
-                for (var column = 0; column < this.columnCount; column++) {
-                    if (row == rowRand && column == columnRand && initializing) {
-                        if (!this.lights[row][column].getOnOff()) {
-                            this.lights[row][column].toggleOnOff();
-                            if (row - 1 >= 0)
-                                this.lights[row - 1][column].toggleOnOff();
-                            if (row + 1 < rowCount)
-                                this.lights[row + 1][column].toggleOnOff();
-                            if (column - 1 >= 0)
-                                this.lights[row][column - 1].toggleOnOff();
-                            if (column + 1 < columnCount)
-                                this.lights[row][column + 1].toggleOnOff();
-                        }
-                    } else continue;
-                }
+            int row = random.nextInt(rowCount);
+            int column = random.nextInt(columnCount);
+//            //for (var row = 0; row < this.rowCount; row++) {
+//            //    for (var column = 0; column < this.columnCount; column++) {
+//                    if (row == rowRand && column == columnRand && initializing) {
+//                        if (!this.lights[row][column].getOnOff()) {
+//                            this.lights[row][column].toggleOnOff();
+//                            if (row - 1 >= 0)
+//                                this.lights[row - 1][column].toggleOnOff();
+//                            if (row + 1 < rowCount)
+//                                this.lights[row + 1][column].toggleOnOff();
+//                            if (column - 1 >= 0)
+//                                this.lights[row][column - 1].toggleOnOff();
+//                            if (column + 1 < columnCount)
+//                                this.lights[row][column + 1].toggleOnOff();
+//                        }
+//                    } else continue;
+//               // }
+//           // }
+
+            if (!this.lights[row][column].getOnOff()) {
+                this.lights[row][column].toggleOnOff();
+                if (row - 1 >= 0)
+                    this.lights[row - 1][column].toggleOnOff();
+                if (row + 1 < rowCount)
+                    this.lights[row + 1][column].toggleOnOff();
+                if (column - 1 >= 0)
+                    this.lights[row][column - 1].toggleOnOff();
+                if (column + 1 < columnCount)
+                    this.lights[row][column + 1].toggleOnOff();
             }
         }
     }
